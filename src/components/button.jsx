@@ -1,7 +1,8 @@
 import React from 'react'
 
-const Button = ({ id, title, leftIcon, containerClass, rightIcon }) => {
+const Button = ({ id, title, leftIcon, containerClass, rightIcon, link }) => {
   return (
+    <a href={link}>
     <button
       id={id}
       className={
@@ -21,6 +22,7 @@ const Button = ({ id, title, leftIcon, containerClass, rightIcon }) => {
 
       {rightIcon}
     </button>
+    </a>
   );
 }
 
