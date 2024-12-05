@@ -14,9 +14,7 @@ const Contact = () => {
             title="let&#39;s b<b>u</b>ild the <br /> new era of <br /> <b>d</b>e<b>v</b> t<b>o</b>gether."
             className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
           />
-          <a href='mailto:karanbhati1310@gmail.com'>
-          <Button title="contact" containerClass="mt-10 cursor-pointer" />
-          </a>
+          <Button title="contact" link="mailto:karanbhati1310@gmail.com" containerClass="mt-10 cursor-pointer" />
         </div>
       </div>
     </div>
