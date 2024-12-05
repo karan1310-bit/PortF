@@ -34,7 +34,7 @@ const Hero = () => {
             <div className='mask-clip-path absolute-center absolute z-50 cursor-pointer overflow-hidden rounded-lg size-60'>
                 <div className='origin-center scale-50 opacity-0 transition-all duration-500 ease-in-out hover:scale-100 hover:opacity-100'>
                     <img src='image/Hero.jpg' id='hero-profile' className='size-60 origin-center scale-150 object-cover object-center' />
-                </div>
+                </div>s
             </div>
 
             <h1 className='special-font hero-heading absolute bottom-8 right-5 z-40 text-blue-75'>
