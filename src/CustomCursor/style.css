@@ -33,6 +33,7 @@
   
   .secondary-cursor {
     width: 15px;
+    pointer-events: none;
     height: 15px;
   
   }

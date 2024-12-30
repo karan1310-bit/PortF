@@ -71,7 +71,7 @@ export const BentoCard = ({ src, title, description, isComingSoon, link }) => {
         </div>
 
         {isComingSoon && (
-            <a href={link} target="_blank">
+           
           <div
             ref={hoverButtonRef}
             onMouseMove={handleMouseMove}
@@ -80,6 +80,7 @@ export const BentoCard = ({ src, title, description, isComingSoon, link }) => {
             className="border-hsla relative flex w-fit cursor-pointer items-center gap-1 overflow-hidden rounded-full bg-black px-5 py-2 text-xs uppercase text-white/20"
           >
             {/* Radial gradient hover effect */}
+            
             <div
               className="pointer-events-none absolute -inset-px opacity-0 transition duration-300"
               style={{
@@ -87,10 +88,13 @@ export const BentoCard = ({ src, title, description, isComingSoon, link }) => {
                 background: `radial-gradient(100px circle at ${cursorPosition.x}px ${cursorPosition.y}px, #656fe288, #00000026)`,
               }}
             />
+            
             <TiLocationArrow className="relative z-20" />
+            <a href={link} target="_blank">
             <p className="relative z-20">Live</p>
-          </div>
-          </a>
+            </a>
+          </div> 
+          
         )}
       </div>
     </div>
